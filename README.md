@@ -1,10 +1,13 @@
-Dependencies/Tools
-ERD sketch tool, such as QuickDatabaseDiagrams
-SQL database (PostgreSQL used here)
-SQL client (used pgAdmin)
-Docker container (used for hosting SQL database + client). YAML file for Postgres + pgAdmin found here
-(BONUS) pandas + sqlalchemy modules in Python
-Overview
+# sql-challenge
+
+## Dependencies/Tools
+* ERD sketch tool, such as [QuickDatabaseDiagrams](http://www.quickdatabasediagrams.com/)
+* SQL database (PostgreSQL used here)
+* SQL client (used pgAdmin)
+* Docker container (used for hosting SQL database + client). YAML file for Postgres + pgAdmin found [here](https://github.com/khezen/compose-postgres)
+* (**BONUS**) pandas + sqlalchemy modules in Python
+
+## Overview
 In this project, I was tasked by the fictional Pewlett-Hackard company to discover some insights on their employee data from the 1980s and 1990s. Using the provided data, I create a data model including an ERD diagram and table schema that includes specific data types, primary keys, foreign keys, and other constraints. Data collected from CSVs is then loaded to the SQL database and the following analysis questions are answered using SQL queries:
 
 List the following details of each employee: employee number, last name, first name, gender, and salary.
