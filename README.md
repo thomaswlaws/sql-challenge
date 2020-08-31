@@ -29,6 +29,6 @@ In descending order, list the frequency count of employee last names, i.e., how 
 As a BONUS, it is suspected that the given data is fake. To prove it, a Jupyter Notebook has been provided to create a bar chart of average salary by title to show that not all is well in the data.
 
 Directory Structure
-/raw_data - contains given CSV files for employee and department related data
+/raw_data - contains given CSV files for employee and department related data  
 /EmployeeSQL - contains bonus analysis in Jupyter notebook (NOTE: a config.py file containing the username, password, host, and port must be provided to run the notebook analyses) and in-depth description of data engineering steps
 /data_model - contains ERD sketch, schema DDL, and SQL queries to answer the above questions
