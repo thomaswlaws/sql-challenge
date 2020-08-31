@@ -31,4 +31,4 @@ As a BONUS, it is suspected that the given data is fake. To prove it, a Jupyter 
 Directory Structure
 /raw_data - contains given CSV files for employee and department related data  
 /EmployeeSQL - contains bonus analysis in Jupyter notebook (NOTE: a config.py file containing the username, password, host, and port must be provided to run the notebook analyses) and in-depth description of data engineering steps
-/data_model - contains ERD sketch, schema DDL, and SQL queries to answer the above questions
+/data_model - contains ERD sketch, schema DDL, and SQL queries to answer the above questions  
